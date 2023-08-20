@@ -9,3 +9,18 @@ const akan = function (y, m, d, g) {
     }
 
 };
+
+
+$(document).ready(function() {
+    $("form#form").submit(function(event) {
+        event.preventDefault();
+        const y = parseInt($("#year").val());
+        const m = parseInt($("#month").val());
+        const d = parseInt($("#date").val());
+        const g = $("input:radio[name=gender]:checked").val();
+        const result = akan(y, m, d, g);
+        alert("Your akan name is: " + result);
+        //refresh page
+        document.getElementById("form").reset();
+    });
+});
