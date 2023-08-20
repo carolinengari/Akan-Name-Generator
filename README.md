@@ -7,6 +7,9 @@ _In many parts of Ghana, and elsewhere in West Africa, a person’s name is dete
 <br>
 _This name generator takes a user's birthday(year, month and date) and gender information, determines the day of the week on which they were born and derives an Akan name depending on their gender._
 
+#### **Description**
+find the demo of this project on this [link] (https://carolinengari.github.io/Akan-Name-Generator/)
+
 #### **Languages Used**
 HTML <br>
 CSS <br>
